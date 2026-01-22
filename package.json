@@ -1,0 +1,25 @@
+{
+    "name": "imperium-music-node",
+    "version": "1.0.0",
+    "description": "Imperium Music Node: Dedicated audio playback service for Railway.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "discord.js": "^14.14.1",
+        "distube": "^5.2.3",
+        "ffmpeg-static": "^5.3.0",
+        "@discordjs/opus": "^0.9.0",
+        "sodium-native": "^4.0.0",
+        "dotenv": "^16.4.1",
+        "node-fetch": "^3.3.2",
+        "@discordjs/voice": "^0.19.0",
+        "cors": "^2.8.5"
+    }
+}
